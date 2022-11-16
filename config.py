@@ -4,7 +4,7 @@ class Config(object):
     TESTING = False
 
 class DevelopmentConfig(Config):
-    SECRET_KEY = "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"
+    SECRET_KEY = ""
 
 config = {
     'development': DevelopmentConfig,
@@ -13,4 +13,4 @@ config = {
 }
 
 ## Enter your Open API Key here
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
